@@ -1,0 +1,5 @@
+ARPING 10.0.0.1 from 0.0.0.0 eth0
+Unicast reply from 10.0.0.1 [02:00:00:00:00:99]  1.500ms
+Sent 1 probes (1 broadcast(s))
+Received 1 response(s)
+exit=1

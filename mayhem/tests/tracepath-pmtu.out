@@ -1,0 +1,4 @@
+ 1:  10.0.0.1                                              1.000ms pmtu 1280
+ 1?: 127.0.0.1                                           reached
+     Resume: pmtu 1280 hops 1 back 5 
+exit=0

@@ -1,0 +1,5 @@
+gettimeofday clock_gettime time setitimer alarm nanosleep usleep sleep
+getpid getuid geteuid setuid seteuid nice getrandom getaddrinfo getnameinfo
+socket close setsockopt getsockopt bind connect getsockname ioctl
+sendto send sendmsg recvmsg recvfrom recv poll ppoll select
+timerfd_create timerfd_settime signalfd read getifaddrs freeifaddrs if_nametoindex

@@ -1,0 +1,4 @@
+{"bytes": 64, "host": "127.0.0.1", "seq": 1, "ttl": 64, "time": "0.000"}
+{"bytes": 64, "host": "127.0.0.1", "seq": 2, "ttl": 64, "time": "0.000"}
+{"host": "127.0.0.1", "transmitted": 2, "received": 2, "duplicates": 0, "corrupted": 0, "errors": 0, "loss": 0, "time": 1000, "rtt": {"min": "0.000", "avg": "0.000", "max": "0.000", "mdev": "0.000"}}
+exit=0

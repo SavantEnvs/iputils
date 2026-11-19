@@ -1,0 +1,9 @@
+project: savantenvs/iputils
+target: ping6
+cmds:
+  - cmd: /mayhem/builddir/mayhem/ping6_fuzz @@
+    afl: true
+    timeout: 10
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/ping6/testsuite

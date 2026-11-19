@@ -1,0 +1,2 @@
+/mayhem/builddir/mayhem/test/ping_args: invalid -s value: '127992': out of range: 0 <= value <= 65507
+exit=1

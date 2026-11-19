@@ -1,0 +1,4 @@
+ 1:  10.0.0.1                                              1.000ms asymm  2 
+ 2:  127.0.0.1                                             1.000ms reached
+     Resume: pmtu 65535 hops 2 back 3 
+exit=0

@@ -1,0 +1,15 @@
+/mayhem/builddir/mayhem/test/ping4: sock4.fd: 3 (socktype: SOCK_RAW), sock6.fd: 4 (socktype: SOCK_RAW), hints.ai_family: AF_UNSPEC
+/mayhem/builddir/mayhem/test/ping4: ai->ai_family: AF_INET, ai->ai_canonname: '127.0.0.1'
+PING 127.0.0.1 (127.0.0.1) 56(84) bytes of data.
+64 bytes from 127.0.0.1: icmp_seq=1 ident=4242 ttl=64 time=0.000 ms
+64 bytes from 127.0.0.1: icmp_seq=1 ident=4242 ttl=64 time=0.000 ms (DUP!)
+From 10.0.0.1 icmp_seq=2 Destination Host Unreachable
+From 127.0.0.1: icmp_seq=2 Redirect Host(New nexthop: 10.0.0.254)
+Vr HL TOS  Len   ID Flg  off TTL Pro  cks      Src      Dst Data
+ 4  5  00 5400 0000   0 0000  40  01 a77c 127.0.0.1  127.0.0.1 
+64 bytes from 127.0.0.1: icmp_seq=3 ident=4242 ttl=64 time=0.000 ms
+
+--- 127.0.0.1 ping statistics ---
+3 packets transmitted, 2 received, +1 duplicates, +1 errors, 33.3333% packet loss, time 2000ms
+rtt min/avg/max/mdev = 0.000/0.000/0.000/0.000 ms
+exit=0
